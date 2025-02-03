@@ -1,0 +1,13 @@
+{
+    "replace": false,
+    "values": [
+        "fzsd:module/interactor/interactor/on_click",
+        "#fzsd:module/scoreboard/interactor/on_click",
+        "#fzsd:module/here/interactor/on_click",
+        "#fzsd:module/last_death/interactor/on_click",
+        "#fzsd:module/last_nether_portal/interactor/on_click",
+        "#fzsd:module/last_spawn_point/interactor/on_click",
+        "#fzsd:module/sweeper/interactor/on_click",
+        "#fzsd:module/phantom_warning/interactor/on_click"
+    ]
+}

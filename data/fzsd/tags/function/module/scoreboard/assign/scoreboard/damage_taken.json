@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "fzsd:module/scoreboard/assign/scoreboard/damage_taken",
+        "#fzsd:module/scoreboard/assign/scoreboard/general/damage_taken"
+    ]
+}

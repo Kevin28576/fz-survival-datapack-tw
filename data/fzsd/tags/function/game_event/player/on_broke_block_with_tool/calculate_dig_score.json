@@ -1,0 +1,6 @@
+{
+    "replace": false,
+    "values": [
+        "fzsd:game_event/player/on_broke_block_with_tool/calculate_dig_score"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "parent": "fzsd:game_event",
+    "criteria": {
+        "on_piglin_trade": {
+            "trigger": "minecraft:thrown_item_picked_up_by_entity",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "fzsd:is_real_player"
+                    }
+                ],
+                "entity": {
+                    "type": "minecraft:piglin",
+                    "flags": {
+                        "is_baby": false
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "fzsd:game_event/advancement/on_piglin_trade"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "__comment": "調用者：fzsd:game_event/on_unsneaked，當玩家蹲起後觸發此事件",
+    "replace": false,
+    "values": [
+        "fzsd:module/interactor/event/on_unsneak/on_unsneak"
+    ]
+}

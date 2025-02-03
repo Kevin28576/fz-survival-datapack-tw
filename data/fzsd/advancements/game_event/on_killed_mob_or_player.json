@@ -1,0 +1,34 @@
+{
+    "parent": "fzsd:game_event",
+    "criteria": {
+        "on_killed_mob_or_player": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "fzsd:is_real_player"
+                    }
+                ],
+                "entity": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "#fzsd:ignore_on_player_killed_entity"
+                            }
+                        }
+                    }
+                ],
+                "killing_blow": {
+                    "bypasses_invulnerability": false
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "fzsd:game_event/advancement/on_killed_mob_or_player"
+    }
+}

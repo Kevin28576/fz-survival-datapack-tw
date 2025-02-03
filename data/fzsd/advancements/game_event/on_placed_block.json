@@ -1,0 +1,19 @@
+{
+    "parent": "fzsd:game_event",
+    "criteria": {
+        "on_placed_block": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "fzsd:is_real_player"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "fzsd:game_event/advancement/on_placed_block"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "__comment": "調用者：#fzsd:module/install",
+    "replace": false,
+    "values": [
+        "fzsd:module/interactor/install"
+    ]
+}

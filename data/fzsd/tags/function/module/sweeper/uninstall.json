@@ -1,0 +1,7 @@
+{
+    "__comment": "調用者：#fzsd:module/uninstall",
+    "replace": false,
+    "values": [
+        "fzsd:module/sweeper/uninstall"
+    ]
+}

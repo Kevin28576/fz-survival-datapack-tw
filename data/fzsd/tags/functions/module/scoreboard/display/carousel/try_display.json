@@ -1,0 +1,16 @@
+{
+    "replace": false,
+    "values": [
+        "fzsd:module/scoreboard/display/carousel/try_display/activation",
+        "fzsd:module/scoreboard/display/carousel/try_display/aviating_distance",
+        "fzsd:module/scoreboard/display/carousel/try_display/damage_taken",
+        "fzsd:module/scoreboard/display/carousel/try_display/death_count",
+        "fzsd:module/scoreboard/display/carousel/try_display/dig_count",
+        "fzsd:module/scoreboard/display/carousel/try_display/fishing_count",
+        "fzsd:module/scoreboard/display/carousel/try_display/general",
+        "fzsd:module/scoreboard/display/carousel/try_display/kill_count",
+        "fzsd:module/scoreboard/display/carousel/try_display/placement_count",
+        "fzsd:module/scoreboard/display/carousel/try_display/trade_count",
+        "fzsd.extra.bbl:display/carousel/try_display"
+    ]
+}

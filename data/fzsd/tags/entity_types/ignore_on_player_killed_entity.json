@@ -1,0 +1,13 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:armor_stand",
+        "minecraft:boat",
+        "minecraft:minecart",
+        "minecraft:shulker_bullet",
+        "minecraft:item_frame",
+        "minecraft:glow_item_frame",
+        "minecraft:painting",
+        "minecraft:end_crystal"
+    ]
+}

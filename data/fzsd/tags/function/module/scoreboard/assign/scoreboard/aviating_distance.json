@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "fzsd:module/scoreboard/assign/scoreboard/aviating_distance",
+        "#fzsd:module/scoreboard/assign/scoreboard/general/aviating_distance"
+    ]
+}

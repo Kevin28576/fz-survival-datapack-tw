@@ -1,0 +1,1 @@
+execute if data storage fzsd:global fzsd.api.dimension{id:'minecraft:the_end'} run data modify storage fzsd:global fzsd.api.dimension.name set value '{"text": "終界", "color": "dark_gray"}'

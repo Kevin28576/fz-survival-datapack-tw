@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        "fzsd:api/get_dimension_name/default",
+        "#fzsd:api/get_dimension_name/minecraft/overworld",
+        "#fzsd:api/get_dimension_name/minecraft/the_end",
+        "#fzsd:api/get_dimension_name/minecraft/the_nether"
+    ]
+}

@@ -1,0 +1,2 @@
+# 見#fzsd:module/scoreboard/display/carousel/try_display
+execute if score fzsd.module.scoreboard.display.current_id fzsd.variable.integer = fzsd.module.scoreboard.display.id.bedrock_broken_count fzsd.variable.integer run function fzsd.extra.bbl:display/carousel/set_display

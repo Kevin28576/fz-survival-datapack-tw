@@ -1,0 +1,31 @@
+{
+    "parent": "fzsd:game_event/on_placed_block",
+    "criteria": {
+        "on_placed_solid": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "fzsd:is_real_player"
+                    },
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": 
+                        {
+                            "condition": "minecraft:location_check",
+                            "predicate": {
+                                "block": {
+                                    "blocks": "#fzsd:placed_liquid_ignore"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "fzsd:game_event/advancement/on_placed_block/on_placed_solid"
+    }
+}

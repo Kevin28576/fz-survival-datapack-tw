@@ -1,0 +1,1 @@
+execute unless data storage fzsd:install fzsd{global: 0b} run function fzsd:boot

@@ -1,0 +1,9 @@
+{
+    "__comment": "本標籤將強制重新安裝所有模組",
+    "replace": false,
+    "values": [
+        "#fzsd:deep_uninstall",
+        "#fzsd:deep_install",
+        "#fzsd:load"
+    ]
+}

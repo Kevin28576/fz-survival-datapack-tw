@@ -1,0 +1,1 @@
+scoreboard players add fzsd.module.scoreboard.display.highest_id fzsd.variable.integer 1

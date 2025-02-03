@@ -1,0 +1,8 @@
+{
+    "__comment_replace": "編寫擴充資料包時必須為true",
+    "replace": false,
+    "__comment_values": "此處只能填寫一個函數！",
+    "values": [
+        "fzsd:module/scoreboard/assign/scoreboard/general/trade_count"
+    ]
+}

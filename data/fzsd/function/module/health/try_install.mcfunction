@@ -1,0 +1,1 @@
+execute unless data storage fzsd:install fzsd.module{health:0b} run function #fzsd:module/health/install

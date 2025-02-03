@@ -1,0 +1,13 @@
+{
+    "__comments": [
+        "調用者：#fzsd:module/scoreboard/display/set_text",
+        "用於在裝載時儲存計分板顏色，不同計分板不得使用同一顏色！",
+        "建議不要直接修改本文件，可編寫擴充資料包並覆寫本標籤！"
+    ],
+    "__comment_replace": "編寫擴充資料包時必須為true",
+    "replace": false,
+    "__comment_values": "此處只能填寫一個函數！",
+    "values": [
+        "fzsd:module/scoreboard/display/set_text/fishing_count/blue"
+    ]
+}

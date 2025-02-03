@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": [
+        "#fzsd:module/interactor/reset_trigger",
+        "#fzsd:module/interactor/event/reset_advancements",
+        "fzsd:module/join_message/event/on_login/on_login"
+    ]
+}

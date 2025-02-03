@@ -1,0 +1,11 @@
+{
+    "replace": false,
+    "values": [
+        "#fzsd:tool/axes",
+        "#fzsd:tool/hoes",
+        "#fzsd:tool/pickaxes",
+        "#fzsd:tool/shears",
+        "#fzsd:tool/shovels",
+        "#fzsd:tool/swords"
+    ]
+}

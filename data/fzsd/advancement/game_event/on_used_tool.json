@@ -1,0 +1,19 @@
+{
+    "parent": "fzsd:game_event",
+    "criteria": {
+        "on_used_tool": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "fzsd:used_tool"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "fzsd:game_event/advancement/on_used_tool"
+    }
+}

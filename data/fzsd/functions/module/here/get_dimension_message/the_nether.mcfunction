@@ -1,0 +1,1 @@
+execute if data entity @s {Dimension:"minecraft:the_nether"} run function fzsd:module/here/get_dimension_message/if_the_nether

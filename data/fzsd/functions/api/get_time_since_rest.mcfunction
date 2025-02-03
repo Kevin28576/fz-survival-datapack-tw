@@ -1,0 +1,1 @@
+scoreboard players operation fzsd.var.cache fzsd.variable.integer = @s fzsd.api.time_since_rest

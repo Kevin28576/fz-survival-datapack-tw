@@ -1,0 +1,24 @@
+{
+    "parent": "fzsd:game_event",
+    "criteria": {
+        "broke_bedrock": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "fzsd.extra.bbl": {
+                                "min": 1
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "fzsd.extra.bbl:event/advancement/broke_bedrock"
+    }
+}

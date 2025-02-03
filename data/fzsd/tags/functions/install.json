@@ -1,0 +1,10 @@
+{
+    "__comment": "本標籤將嘗試安裝安裝記錄不為 false 的模組",
+    "replace": false,
+    "values": [
+        "#fzsd:system/install/pre",
+        "#fzsd:system/install/system",
+        "#fzsd:system/install/module/try",
+        "#fzsd:system/install/post"
+    ]
+}

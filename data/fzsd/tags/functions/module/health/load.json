@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "#fzsd:module/health/set_health_name",
+        "fzsd:module/health/load"
+    ]
+}

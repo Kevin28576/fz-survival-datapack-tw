@@ -1,0 +1,1 @@
+execute if score fzsd.module.scoreboard.display.current_id fzsd.variable.integer = fzsd.module.scoreboard.display.id.placement_count fzsd.variable.integer run function fzsd:module/scoreboard/display/carousel/set_display/placement_count

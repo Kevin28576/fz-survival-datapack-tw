@@ -1,0 +1,1 @@
+execute if score fzsd.module.scoreboard.display.current_id fzsd.variable.integer = fzsd.module.scoreboard.display.id.damage_taken fzsd.variable.integer run function fzsd:module/scoreboard/display/carousel/set_display/damage_taken

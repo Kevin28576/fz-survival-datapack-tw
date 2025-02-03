@@ -1,0 +1,1 @@
+data modify storage fzsd:global fzsd.api.dimension.name set value '{"nbt": "fzsd.api.dimension.id", "storage": "fzsd:global"}'

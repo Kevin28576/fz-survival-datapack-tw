@@ -1,0 +1,19 @@
+{
+    "parent": "fzsd:game_event",
+    "criteria": {
+        "on_villager_trade": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "fzsd:is_real_player"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "fzsd:game_event/advancement/on_villager_trade"
+    }
+}

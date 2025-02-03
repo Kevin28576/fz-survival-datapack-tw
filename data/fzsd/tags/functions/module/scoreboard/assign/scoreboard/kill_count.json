@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "fzsd:module/scoreboard/assign/scoreboard/kill_count",
+        "#fzsd:module/scoreboard/assign/scoreboard/general/kill_count"
+    ]
+}

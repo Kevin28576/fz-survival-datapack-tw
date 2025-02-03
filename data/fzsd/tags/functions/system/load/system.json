@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": [
+        "fzsd:system/load/load",
+        "fzsd:logger/load",
+        "fzsd:game_event/load"
+    ]
+}

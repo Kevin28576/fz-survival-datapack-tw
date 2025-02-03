@@ -1,0 +1,15 @@
+{
+    "replace": false,
+    "values": [
+        "fzsd:module/health/try_install",
+        "fzsd:module/here/try_install",
+        "fzsd:module/interactor/try_install",
+        "fzsd:module/join_message/try_install",
+        "fzsd:module/last_death/try_install",
+        "fzsd:module/last_nether_portal/try_install",
+        "fzsd:module/last_spawn_point/try_install",
+        "fzsd:module/phantom_warning/try_install",
+        "fzsd:module/scoreboard/try_install",
+        "fzsd:module/sweeper/try_install"
+    ]
+}

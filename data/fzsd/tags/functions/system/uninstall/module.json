@@ -1,0 +1,14 @@
+{
+    "replace": false,
+    "__comment": "在解除安裝前將安裝記錄緩存，解除安裝後恢復（位於#fzsd:system/unstalled）",
+    "values": [
+        "#fzsd:module/health/uninstall",
+        "#fzsd:module/here/uninstall",
+        "#fzsd:module/interactor/uninstall",
+        "#fzsd:module/last_death/uninstall",
+        "#fzsd:module/last_nether_portal/uninstall",
+        "#fzsd:module/last_spawn_point/uninstall",
+        "#fzsd:module/scoreboard/uninstall",
+        "#fzsd:module/sweeper/uninstall"
+    ]
+}

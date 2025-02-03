@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "fzsd:module/last_death/get_death_point",
+        "#fzsd:api/get_dimension_name"
+    ]
+}

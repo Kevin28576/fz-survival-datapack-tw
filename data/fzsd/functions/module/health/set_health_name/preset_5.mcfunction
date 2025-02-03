@@ -1,0 +1,1 @@
+scoreboard objectives modify fzsd.module.health displayname {"text": "沙雕值", "color": "yellow"}

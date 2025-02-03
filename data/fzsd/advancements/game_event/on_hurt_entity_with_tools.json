@@ -1,0 +1,30 @@
+{
+    "parent": "fzsd:game_event",
+    "criteria": {
+        "on_hurt_entity_with_tools": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "fzsd:is_real_player"
+                    },
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "equipment": {
+                                "mainhand": {
+                                    "tag": "fzsd:tools"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "fzsd:game_event/advancement/on_hurt_entity_with_tools"
+    }
+}

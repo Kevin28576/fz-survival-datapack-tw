@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "fzsd:module/scoreboard/assign/scoreboard/trade_count",
+        "#fzsd:module/scoreboard/assign/scoreboard/general/trade_count"
+    ]
+}

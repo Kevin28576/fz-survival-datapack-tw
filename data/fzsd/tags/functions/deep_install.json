@@ -1,0 +1,10 @@
+{
+    "__comment": "本標籤將強制安裝所有模組",
+    "replace": false,
+    "values": [
+        "#fzsd:system/install/pre",
+        "#fzsd:system/install/system",
+        "#fzsd:system/install/module/force",
+        "#fzsd:system/install/post"
+    ]
+}

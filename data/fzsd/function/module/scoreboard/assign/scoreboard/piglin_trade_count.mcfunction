@@ -1,0 +1,1 @@
+execute if data storage fzsd:module fzsd.module.scoreboard.config{trade_count_includes_piglin:1b} run function fzsd:module/scoreboard/assign/scoreboard/trade_count

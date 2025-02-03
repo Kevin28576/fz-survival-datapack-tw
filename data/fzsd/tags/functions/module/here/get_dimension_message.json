@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "fzsd:module/here/get_dimension_message/overworld",
+        "fzsd:module/here/get_dimension_message/the_nether"
+    ]
+}

@@ -1,0 +1,4 @@
+execute if score @s fzsd.module.interactor.trigger matches -2200 if data storage fzsd:perm {last_nether_portal:1} if entity @s[tag=fzsd.admin] run function #fzsd:module/last_nether_portal/private_message
+execute if score @s fzsd.module.interactor.trigger matches -2200 unless data storage fzsd:perm {last_nether_portal:1} run function #fzsd:module/last_nether_portal/private_message
+execute if score @s fzsd.module.interactor.trigger matches -2210 if data storage fzsd:perm {last_nether_portal:1} if entity @s[tag=fzsd.admin] run function #fzsd:module/last_nether_portal/global_message
+execute if score @s fzsd.module.interactor.trigger matches -2210 unless data storage fzsd:perm {last_nether_portal:1} run function #fzsd:module/last_nether_portal/global_message

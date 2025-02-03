@@ -1,0 +1,6 @@
+{
+    "replace": false,
+    "values": [
+        "fzsd:game_event/game/on_night/on_tick"
+    ]
+}

@@ -1,0 +1,3 @@
+execute if data storage fzsd:install fzsd.extra{bbl:1b} if score fzsd.logger.level fzsd.variable.integer matches ..400 run tellraw @a [{"text": "", "color": "green"}, {"nbt": "fzsd.level.debug", "interpret": true, "storage": "fzsd:logger"}, {"text": "fzsd.module.scoreboard.display.bedrock_broken_count - "}, {"nbt": "fzsd.module.scoreboard.text.bedrock_broken_count", "interpret": true, "storage": "fzsd:module"}]
+
+execute if data storage fzsd:install fzsd.extra{bbl:1b} if score fzsd.logger.level fzsd.variable.integer matches ..500 run tellraw @a [{"nbt": "fzsd.level.info", "interpret": true, "storage": "fzsd:logger"}, {"text": "已載入擴展：破基岩榜"}]

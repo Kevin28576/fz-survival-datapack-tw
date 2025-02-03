@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "fzsd:module/scoreboard/assign/scoreboard/activation",
+        "#fzsd:module/scoreboard/assign/scoreboard/general/activation"
+    ]
+}

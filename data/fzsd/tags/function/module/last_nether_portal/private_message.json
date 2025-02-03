@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "#fzsd:module/last_nether_portal/get_message",
+        "fzsd:module/last_nether_portal/private_message"
+    ]
+}

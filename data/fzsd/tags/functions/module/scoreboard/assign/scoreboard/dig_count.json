@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "fzsd:module/scoreboard/assign/scoreboard/dig_count",
+        "#fzsd:module/scoreboard/assign/scoreboard/general/dig_count"
+    ]
+}

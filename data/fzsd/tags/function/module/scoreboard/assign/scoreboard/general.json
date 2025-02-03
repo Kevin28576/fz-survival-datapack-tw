@@ -1,0 +1,15 @@
+{
+    "replace": false,
+    "values": [
+        "#fzsd:module/scoreboard/assign/scoreboard/general/activation",
+        "#fzsd:module/scoreboard/assign/scoreboard/general/aviating_distance",
+        "#fzsd:module/scoreboard/assign/scoreboard/general/bedrock_broke_count",
+        "#fzsd:module/scoreboard/assign/scoreboard/general/damage_taken",
+        "#fzsd:module/scoreboard/assign/scoreboard/general/death_count",
+        "#fzsd:module/scoreboard/assign/scoreboard/general/dig_count",
+        "#fzsd:module/scoreboard/assign/scoreboard/general/fishing_count",
+        "#fzsd:module/scoreboard/assign/scoreboard/general/kill_count",
+        "#fzsd:module/scoreboard/assign/scoreboard/general/placement_count",
+        "#fzsd:module/scoreboard/assign/scoreboard/general/trade_count"
+    ]
+}

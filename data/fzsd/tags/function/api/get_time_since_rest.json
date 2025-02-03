@@ -1,0 +1,6 @@
+{
+    "replace": false,
+    "values": [
+        "fzsd:api/get_time_since_rest"
+    ]
+}

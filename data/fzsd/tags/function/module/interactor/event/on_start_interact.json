@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "#fzsd:module/interactor/event/on_display",
+        "#fzsd:module/interactor/reset_trigger"
+    ]
+}

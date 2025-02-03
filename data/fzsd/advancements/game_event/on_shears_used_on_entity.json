@@ -1,0 +1,25 @@
+{
+    "parent": "fzsd:game_event",
+    "criteria": {
+        "on_shears_used_on_entity": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "fzsd:is_real_player"
+                    }
+                ],
+                "entity": {
+                    "type": "#fzsd:shearable"
+                },
+                "item": {
+                    "tag": "fzsd:tool/shears"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "fzsd:game_event/advancement/on_shears_used_on_entity"
+    }
+}

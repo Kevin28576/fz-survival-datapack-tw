@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        "fzsd:module/sweeper/clear",
+        "fzsd:module/sweeper/pre_loop",
+        "fzsd:module/sweeper/start_timer",
+        "fzsd:module/sweeper/bossbar"
+    ]
+}

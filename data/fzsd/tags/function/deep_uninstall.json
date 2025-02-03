@@ -1,0 +1,10 @@
+{
+    "__comment": "本標籤將強制解除安裝所有模組",
+    "replace": false,
+    "values": [
+        "#fzsd:system/uninstall/pre",
+        "#fzsd:system/uninstall/module",
+        "#fzsd:system/uninstall/system",
+        "#fzsd:system/uninstall/post"
+    ]
+}

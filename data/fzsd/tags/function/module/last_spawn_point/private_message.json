@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "#fzsd:module/last_spawn_point/get_spawn_point",
+        "fzsd:module/last_spawn_point/private_message"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "__comment": "有別於模組的解除安裝操作，本標籤不會將模組的安裝記錄設為 false",
+    "replace": false,
+    "values": [
+        "#fzsd:system/uninstall/pre",
+        "fzsd:system/uninstall/cache_module_install_data",
+        "#fzsd:system/uninstall/module",
+        "#fzsd:system/uninstall/system",
+        "fzsd:system/uninstall/restore_module_install_data",
+        "#fzsd:system/uninstall/post"
+    ]
+}

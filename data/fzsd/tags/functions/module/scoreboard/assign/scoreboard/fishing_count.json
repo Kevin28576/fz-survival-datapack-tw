@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "fzsd:module/scoreboard/assign/scoreboard/fishing_count",
+        "#fzsd:module/scoreboard/assign/scoreboard/general/fishing_count"
+    ]
+}

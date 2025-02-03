@@ -1,0 +1,1 @@
+execute if data storage fzsd:install fzsd.module{phantom_warning:1b} as @a[predicate=fzsd:is_real_player] run function #fzsd:module/phantom_warning/check_time_since_rest

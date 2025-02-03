@@ -1,0 +1,8 @@
+{
+    "__comment": "調用者：fzsd:module:scoreboard/uninstall",
+    "replace": false,
+    "values": [
+        "fzsd:module/scoreboard/clear_data",
+        "fzsd.extra.bbl:clear_data"
+    ]
+}

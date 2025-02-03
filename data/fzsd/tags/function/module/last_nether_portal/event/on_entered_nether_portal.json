@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": [
+        "#fzsd:api/get_player_dimension",
+        "#fzsd:api/get_dimension_name",
+        "fzsd:module/last_nether_portal/event/on_entered_nether_portal"
+    ]
+}

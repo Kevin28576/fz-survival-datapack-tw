@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "fzsd:module/scoreboard/assign/scoreboard/death_count",
+        "#fzsd:module/scoreboard/assign/scoreboard/general/death_count"
+    ]
+}

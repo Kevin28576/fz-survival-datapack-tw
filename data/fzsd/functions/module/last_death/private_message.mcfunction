@@ -1,0 +1,2 @@
+execute if data entity @s LastDeathLocation run tellraw @s [{"text": "你上次死在了"}, {"nbt": "fzsd.api.dimension.name", "interpret": true, "storage": "fzsd:global"}, [{"text": " [", "color": "green"}, {"nbt": "fzsd.x", "storage": "fzsd:last_death"}, {"text": ", "}, {"nbt": "fzsd.y", "storage": "fzsd:last_death"}, {"text": ", "}, {"nbt": "fzsd.z", "storage": "fzsd:last_death"}, {"text": "]"}]]
+execute unless data entity @s LastDeathLocation run tellraw @s {"text": "你還沒死過！"}

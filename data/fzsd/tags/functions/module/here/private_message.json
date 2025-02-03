@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "#fzsd:module/here/get_message",
+        "fzsd:module/here/private_message"
+    ]
+}

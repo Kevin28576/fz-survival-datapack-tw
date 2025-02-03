@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "__comment": "調用者：data/fzsd/functions/module/phantom_warning/check_time_since_rest.mcfunction",
+    "values": [
+        "fzsd:module/phantom_warning/send_phantom_warning"
+    ]
+}

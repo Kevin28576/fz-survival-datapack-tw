@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "fzsd.extra.bbl:assign/bbl",
+        "fzsd.extra.bbl:assign/general"
+    ]
+}

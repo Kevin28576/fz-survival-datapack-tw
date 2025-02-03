@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "#fzsd:game_event/advancement/reset_advancements",
+        "#fzsd:game_event/player/on_used_tool/reset_used_tool"
+    ]
+}

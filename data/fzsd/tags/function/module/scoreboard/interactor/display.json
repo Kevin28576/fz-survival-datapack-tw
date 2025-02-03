@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "fzsd:module/scoreboard/interactor/display",
+        "fzsd.extra.bbl:interactor/display"
+    ]
+}

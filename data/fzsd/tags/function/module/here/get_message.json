@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        "#fzsd:api/get_player_dimension",
+        "#fzsd:api/get_dimension_name",
+        "fzsd:module/here/get_message",
+        "#fzsd:module/here/get_dimension_message"
+    ]
+}

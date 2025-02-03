@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        "fzsd:system/install/install",
+        "#fzsd:logger/install",
+        "#fzsd:api/install",
+        "#fzsd:game_event/install"
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "pack": {
+        "description": "FZ Survival Datapack 3.1 | Author: Harvey_Husky",
+        "pack_format": 61,
+        "supported_formats": {
+            "min_inclusive": 15,
+            "max_inclusive": 61
+        }
+    },
+    "overlays": {
+        "entries": [
+            {
+                "directory": "compat_16",
+                "formats": {
+                    "min_inclusive": 16,
+                    "max_inclusive": 41
+                }
+            },
+            {
+                "directory": "compat_27",
+                "formats": {
+                    "min_inclusive": 27,
+                    "max_inclusive": 41
+                }
+            },
+            {
+                "directory": "compat_42",
+                "formats": {
+                    "min_inclusive": 42,
+                    "max_inclusive": 48
+                }
+            },
+            {
+                "directory": "compat_49",
+                "formats": {
+                    "min_inclusive": 49,
+                    "max_inclusive": 61
+                }
+            }
+        ]
+    }
+}

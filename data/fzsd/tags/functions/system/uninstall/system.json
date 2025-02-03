@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        "#fzsd:api/uninstall",
+        "#fzsd:game_event/uninstall",
+        "#fzsd:logger/uninstall",
+        "fzsd:system/uninstall/uninstall"
+    ]
+}

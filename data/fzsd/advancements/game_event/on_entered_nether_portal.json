@@ -1,0 +1,32 @@
+{
+    "parent": "fzsd:game_event",
+    "criteria": {
+        "on_entered_nether_portal": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "fzsd:is_real_player"
+                    },
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "block": {
+                                    "blocks": [
+                                        "minecraft:nether_portal"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "fzsd:game_event/advancement/on_entered_nether_portal"
+    }
+}

@@ -1,0 +1,1 @@
+execute unless data storage fzsd:install fzsd.module{sweeper:0b} run function #fzsd:module/sweeper/install

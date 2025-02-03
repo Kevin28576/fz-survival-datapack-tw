@@ -1,0 +1,6 @@
+# 見#fzsd:module/scoreboard/display/register_id
+#### 如果破基岩榜分數不為0，註冊破基岩計分板id
+execute if score fzsd.module.scoreboard.total.bedrock_broken_count fzsd.module.scoreboard.assign.general matches 1.. run function #fzsd:calculation/highest_id_add_1
+execute if score fzsd.module.scoreboard.total.bedrock_broken_count fzsd.module.scoreboard.assign.general matches 1.. run scoreboard players operation fzsd.module.scoreboard.display.id.bedrock_broken_count fzsd.variable.integer = fzsd.module.scoreboard.display.highest_id fzsd.variable.integer
+
+execute if score fzsd.module.scoreboard.total.bedrock_broken_count fzsd.module.scoreboard.assign.general matches 1.. if score fzsd.logger.level fzsd.variable.integer matches ..400 run tellraw @a [{"nbt": "fzsd.level.debug", "interpret": true, "storage": "fzsd:logger"}, {"text": "註冊"}, {"nbt": "fzsd.module.scoreboard.text.bedrock_broken_count", "interpret": true, "storage": "fzsd:module"}, {"text": "id為："}, {"score": {"name": "fzsd.module.scoreboard.display.id.bedrock_broken_count", "objective": "fzsd.variable.integer"}}]

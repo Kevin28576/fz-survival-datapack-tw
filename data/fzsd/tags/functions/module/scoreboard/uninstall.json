@@ -1,0 +1,8 @@
+{
+    "__comment": "調用者：#fzsd:module/uninstall",
+    "replace": false,
+    "values": [
+        "fzsd:module/scoreboard/uninstall",
+        "fzsd.extra.bbl:uninstall"
+    ]
+}

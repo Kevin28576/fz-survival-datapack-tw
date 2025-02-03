@@ -1,0 +1,22 @@
+{
+    "parent": "fzsd:game_event",
+    "criteria": {
+        "on_fished": {
+            "trigger": "minecraft:fishing_rod_hooked",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "fzsd:is_real_player"
+                    }
+                ],
+                "item": {
+                    "items": "#fzsd:raw_fishes"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "fzsd:game_event/advancement/on_fished"
+    }
+}

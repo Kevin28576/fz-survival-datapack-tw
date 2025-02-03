@@ -1,0 +1,12 @@
+{
+    "__comment": "調用者：fzsd:module/try_load",
+    "replace": false,
+    "values": [
+        "#fzsd:module/scoreboard/display/register_id",
+        "#fzsd:module/scoreboard/display/set_text",
+        "fzsd:module/scoreboard/display/carousel/loop",
+        "fzsd:module/scoreboard/load",
+        "fzsd.extra.bbl:try_install",
+        "fzsd.extra.bbl:load"
+    ]
+}

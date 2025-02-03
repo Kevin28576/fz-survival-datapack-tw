@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:lava_bucket",
+        "minecraft:water_bucket",
+        "minecraft:powder_snow_bucket",
+        "#fzsd:bucket_of_mob"
+    ]
+}

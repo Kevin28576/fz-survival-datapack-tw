@@ -1,0 +1,50 @@
+{
+    "parent": "fzsd:game_event",
+    "criteria": {
+        "on_tools_exclude_axes_used_on_block": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "fzsd:is_real_player"
+                    },
+                    {
+                        "condition": "minecraft:any_of",
+                        "terms": [
+                            {
+                                "condition": "minecraft:match_tool",
+                                "predicate": {
+                                    "tag": "fzsd:tools_exclude_axes"
+                                }
+                            },
+                            {
+                                "condition": "minecraft:all_of",
+                                "terms": [
+                                    {
+                                        "condition": "minecraft:match_tool",
+                                        "predicate": {
+                                            "tag": "fzsd:tool/axes"
+                                        }
+                                    },
+                                    {
+                                        "condition": "minecraft:location_check",
+                                        "predicate": {
+                                            "__comment": "斧子剥树皮会触发两次，所以用目标方块限定只触发一次",
+                                            "block": {
+                                                "tag": "fzsd:stripped_blocks"
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "fzsd:game_event/advancement/on_tools_used_on_block"
+    }
+}

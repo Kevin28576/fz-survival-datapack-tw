@@ -1,0 +1,1 @@
+execute if data storage fzsd:install fzsd.module{join_message:1b} run function #fzsd:module/join_message/send_message

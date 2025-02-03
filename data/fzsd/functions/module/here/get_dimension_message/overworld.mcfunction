@@ -1,0 +1,1 @@
+execute if data entity @s {Dimension:"minecraft:overworld"} run function fzsd:module/here/get_dimension_message/if_overworld

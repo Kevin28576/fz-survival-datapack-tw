@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        "fzsd:module/health/try_load",
+        "fzsd:module/interactor/try_load",
+        "fzsd:module/scoreboard/try_load",
+        "fzsd:module/sweeper/try_load"
+    ]
+}

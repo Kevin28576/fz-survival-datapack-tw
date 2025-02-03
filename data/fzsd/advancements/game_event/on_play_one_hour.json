@@ -1,0 +1,24 @@
+{
+    "parent": "fzsd:game_event",
+    "criteria": {
+        "on_play_one_hour": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "fzsd.event.play_ticks": {
+                                "min": 72000
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "fzsd:game_event/advancement/on_play_one_hour"
+    }
+}

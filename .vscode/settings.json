@@ -1,0 +1,50 @@
+{
+    "datapack.snippets": {
+        "executeIfScoreSet": "execute if score ${1:score_holder} ${2:objective} = ${1:score_holder} ${2:objective} $0",
+        "scoreboardPlayersOperation": "scoreboard players operation ${1:target_score_holder} ${2:target_objective} ${3|+=,-=,*=,/=,%=,=,>,<,<>|} ${4:source_score_holder} ${5:source_objective}",
+        "scoreboardPlayersSet": "scoreboard players set ${1:score_holder} ${2:objective} ${3:0}",
+        "scoreboardAddObjective": "scoreboard objectives add ${1:objective} ${2:dummy}",
+        "tagAdd": "tag ${1:target} add ${2:tag}",
+        "tagRemove": "tag ${1:target} remove ${2:tag}",
+        "dataModifyStorageFromSelf": "data modify storage ${1:id} ${2:path} set from entity @s ${3:path}",
+        "summonAec": "summon minecraft:area_effect_cloud ~ ~ ~ {Age: -2147483648, Duration: -1, WaitTime: -2147483648, Tags: [\"${1:tag}\"]}",
+        "logFine": "execute if score fzsd.logger.level fzsd.variable.integer matches ..300 run tellraw @a [{\"nbt\": \"fzsd.level.fine\", \"interpret\": true, \"storage\": \"fzsd:logger\"}, {\"text\": \"${log_fine}\"}",
+        "logDebug": "execute if score fzsd.logger.level fzsd.variable.integer matches ..400 run tellraw @a [{\"nbt\": \"fzsd.level.debug\", \"interpret\": true, \"storage\": \"fzsd:logger\"}, {\"text\": \"${1:log_debug}\"}]",
+        "logInfo": "execute if score fzsd.logger.level fzsd.variable.integer matches ..500 run tellraw @a [{\"nbt\": \"fzsd.level.info\", \"interpret\": true, \"storage\": \"fzsd:logger\"}, {\"text\": \"${1:log_info}\"}]",
+        "logAlert": "execute if score fzsd.logger.level fzsd.variable.integer matches ..600 run tellraw @a [{\"nbt\": \"fzsd.level.alert\", \"interpret\": true, \"storage\": \"fzsd:logger\"}, {\"text\": \"${1:log_alert}\"}]",
+        "logError": "execute if score fzsd.logger.level fzsd.variable.integer matches ..800 run tellraw @a [{\"nbt\": \"fzsd.level.error\", \"interpret\": true, \"storage\": \"fzsd:logger\"}, {\"text\": \"${1:log_error}\"}]",
+        "TEXT": "{\"text\": \"${1:TEXT}\", \"color\": \"${2:COLOR}\"}",
+        "storageText": "{\"nbt\": \"${1:NBT}\", \"interpret\": true, \"storage\": \"${2:A namespaced ID}\"}",
+        "ifInstalled": "execute if data storage fzsd:installed fzsd.module{${1:module_name}:1b} run ${tellraw}"
+    },
+    "datapack.env.exclude": [
+        "data/fzsd/functions/system/carpet/*"
+    ],
+    "datapack.lint.blockStateCommaSpacing": {
+        "before": 0,
+        "after": 1
+    },
+    "datapack.lint.blockStateEqualSpacing": {
+        "before": 1,
+        "after": 1
+    },
+    "datapack.lint.selectorCommaSpacing": {
+        "before": 0,
+        "after": 1
+    },
+    "datapack.lint.selectorEqualSpacing": {
+        "before": 1,
+        "after": 1
+    },
+    "datapack.env.cmdVersion": "1.20.3",
+    "datapack.env.dataVersion": "1.21",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true
+    },
+    "hide-files.files": []
+}

@@ -1,0 +1,1 @@
+script run if(system_info('app_list') ~ 'fzsd_score' == null && run('script load fzsd_score'):0 == 0,run('carpet commandPlayer false'); print(player('all'), '未安裝計分板配套插件，請按使用說明安裝或聯絡伺服器管理員！已停用地毯假人，以避免污染計分板，請自行啟用！'))

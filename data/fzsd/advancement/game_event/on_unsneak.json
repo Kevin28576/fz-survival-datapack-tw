@@ -1,0 +1,34 @@
+{
+    "parent": "fzsd:game_event/on_sneak",
+    "criteria": {
+        "on_unsneak": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "fzsd:is_real_player"
+                    },
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "flags": {
+                                "is_sneaking": false
+                            },
+                            "type_specific": {
+                                "type": "player",
+                                "advancements": {
+                                    "fzsd:game_event/on_sneak": true
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "fzsd:game_event/advancement/on_unsneak"
+    }
+}

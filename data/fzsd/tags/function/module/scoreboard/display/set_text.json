@@ -1,0 +1,21 @@
+{
+    "__comments": [
+        "調用者：fzsd:module/scoreboard/load",
+        "用於在裝載時儲存計分板顏色，不同計分板不得使用同一顏色！"
+    ],
+    "replace": false,
+    "values": [
+        "#fzsd:module/scoreboard/display/set_text/activation",
+        "#fzsd:module/scoreboard/display/set_text/aviating_distance",
+        "#fzsd:module/scoreboard/display/set_text/carousel",
+        "#fzsd:module/scoreboard/display/set_text/damage_taken",
+        "#fzsd:module/scoreboard/display/set_text/death_count",
+        "#fzsd:module/scoreboard/display/set_text/dig_count",
+        "#fzsd:module/scoreboard/display/set_text/fishing_count",
+        "#fzsd:module/scoreboard/display/set_text/general",
+        "#fzsd:module/scoreboard/display/set_text/kill_count",
+        "#fzsd:module/scoreboard/display/set_text/placement_count",
+        "#fzsd:module/scoreboard/display/set_text/trade_count",
+        "#fzsd.extra.bbl:display/set_text"
+    ]
+}

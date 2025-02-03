@@ -1,0 +1,7 @@
+{
+    "__comment": "調用者：fzsd:module/try_load",
+    "replace": false,
+    "values": [
+        "fzsd:module/interactor/load"
+    ]
+}

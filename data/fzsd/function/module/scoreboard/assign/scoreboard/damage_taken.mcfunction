@@ -1,0 +1,4 @@
+scoreboard players operation @s fzsd.module.scoreboard.display.damage_taken += fzsd.var.score fzsd.variable.integer
+execute if score @s fzsd.module.scoreboard.display.damage_taken matches ..-1 run scoreboard players set @s fzsd.module.scoreboard.display.damage_taken 2147483647
+scoreboard players operation fzsd.module.scoreboard.total.damage_taken fzsd.module.scoreboard.assign.general += fzsd.var.score fzsd.variable.integer
+execute if score fzsd.module.scoreboard.total.damage_taken fzsd.module.scoreboard.assign.general matches ..-1 run scoreboard players set fzsd.module.scoreboard.total.damage_taken fzsd.module.scoreboard.assign.general 2147483647

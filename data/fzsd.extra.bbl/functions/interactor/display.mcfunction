@@ -1,0 +1,3 @@
+# 見#fzsd:module/scoreboard/interactor/display
+## 當破基岩榜分數不為0時向玩家顯示按鈕
+execute if data storage fzsd:install fzsd.extra{bbl:1b} if score fzsd.module.scoreboard.total.bedrock_broken_count fzsd.module.scoreboard.assign.general matches 1.. run tellraw @s [{"text": "[", "color": "dark_gray", "clickEvent": {"action": "run_command", "value": "/trigger fzsd.module.interactor.trigger set -1210"}, "hoverEvent": {"action": "show_text", "contents": {"nbt": "text", "interpret": true, "storage": "fzsd.extra.bbl:text"}}}, {"nbt": "fzsd.module.scoreboard.text.bedrock_broken_count", "interpret": true, "storage": "fzsd:module"}, {"text": "]"}]

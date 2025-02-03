@@ -1,0 +1,4 @@
+scoreboard players operation @s fzsd.module.scoreboard.display.dig_count += fzsd.var.score fzsd.variable.integer
+execute if score @s fzsd.module.scoreboard.display.dig_count matches ..-1 run scoreboard players set @s fzsd.module.scoreboard.display.dig_count 2147483647
+scoreboard players operation fzsd.module.scoreboard.total.dig_count fzsd.module.scoreboard.assign.general += fzsd.var.score fzsd.variable.integer
+execute if score fzsd.module.scoreboard.total.dig_count fzsd.module.scoreboard.assign.general matches ..-1 run scoreboard players set fzsd.module.scoreboard.total.dig_count fzsd.module.scoreboard.assign.general 2147483647

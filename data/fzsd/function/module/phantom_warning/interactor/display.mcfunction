@@ -1,0 +1,2 @@
+execute if data storage fzsd:install fzsd.module{phantom_warning:1b} if data storage fzsd:perm {phantom_warning:1} if entity @s[tag=fzsd.admin] run function fzsd:module/phantom_warning/interactor/display_0
+execute if data storage fzsd:install fzsd.module{phantom_warning:1b} unless data storage fzsd:perm {phantom_warning:1} run function fzsd:module/phantom_warning/interactor/display_0

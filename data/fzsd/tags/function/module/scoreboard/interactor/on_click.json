@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "fzsd:module/scoreboard/interactor/on_click",
+        "fzsd.extra.bbl:interactor/on_click"
+    ]
+}

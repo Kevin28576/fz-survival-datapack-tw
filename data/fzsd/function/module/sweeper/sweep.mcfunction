@@ -1,0 +1,3 @@
+execute store result score fzsd.sweeper.killed fzsd.variable.integer run kill @e[type=minecraft:item,predicate=!fzsd:sweeper/whitelist]
+execute if score fzsd.logger.level fzsd.variable.integer matches ..600 run tellraw @a [{"nbt": "fzsd.level.alert", "interpret": true, "storage": "fzsd:logger"}, {"text": "本次共清理了"}, {"score": {"objective": "fzsd.variable.integer", "name": "fzsd.sweeper.killed"}}, {"text": "堆掉落物"}]
+execute as @a[tag=!fzsd.ignore_sweeper_sound] at @s run playsound minecraft:block.note_block.pling voice @s ~ ~ ~ 1 2
