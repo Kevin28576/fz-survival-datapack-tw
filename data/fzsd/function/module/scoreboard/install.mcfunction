@@ -5,11 +5,11 @@
 ### 總覽
 scoreboard objectives add fzsd.module.scoreboard.assign.general dummy
 
-## 轮播
+## 輪播
 team add fzsd.module.scoreboard.display.carousel
 
-## 显示计分板
-###### 判据均为dummy，便于升级维护！
+## 顯示計分板
+###### 判據皆為dummy，方便升級維護！
 
 ### 總覽
 scoreboard objectives add fzsd.module.scoreboard.display.general dummy
